@@ -1,0 +1,14 @@
+
+~
+java:S14887"\Immediately return this expression instead of assigning it to the temporary variable "view".(ñÑ‹ûÿÿÿÿ8å¼¥ë÷.
+]	java:S125["<This block of commented-out lines of code should be removed.(ŞŠ¦©ûÿÿÿÿ8³Íë÷.
+}
+java:S1450"[Remove the "recyclerView" field and declare it as a local variable in the relevant methods.(¿á© ıÿÿÿÿ8³Íë÷.
+
+java:S1186$"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Áµí8¸±Óïö.
+C
+java:S1172'"&Remove these unused method parameters.(í¥Ä¢8ÜÔïö.
+v
+java:S1450""YRemove the "searchView" field and declare it as a local variable in the relevant methods.(‰Ôô¦8©­¥æ÷.
+E
+java:S1185/"(Remove this method to simply inherit it.(ßìê¯8Ì°îÄ÷.

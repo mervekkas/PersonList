@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PersonList</string>
+    <string name="kisiler">Kişiler</string>
+    <string name="kisi_ara">Kişi Ara</string>
+    <string name="kisi_ekle">Kişi Ekle</string>
+    <string name="dogum_tarihi">Doğum Tarihi</string>
+    <string name="e_posta">EPosta</string>
+    <string name="telefon">Telefon Numarası</string>
+    <string name="not">Not</string>
+    <string name="ad">Ad</string>
+    <string name="soyad">Soyad</string>
+    <string name="kaydet_guncelle">Kaydet/Güncelle</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="email_error">E-posta Adresi Yanlış</string>
+    <string name="email_null">E-posta Adresi Boş</string>
+    <string name="min_text_error">2 Harften Kısa Olamaz</string>
+    <string name="phone_error">Geçerli Telefon Numarası Giriniz</string>
+    <string name="birthday_error">Doğum Tarihinizi Giriniz</string>
+    <string name="kayit_onay">Kayıt Başarılı</string>
+    <string name="sil">Sil</string>
+</resources>

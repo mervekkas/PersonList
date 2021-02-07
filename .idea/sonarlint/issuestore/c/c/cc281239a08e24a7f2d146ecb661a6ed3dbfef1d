@@ -1,0 +1,69 @@
+
+B
+java:S1659*"%Declare "stEmail" on a separate line.(»Åº¾8ÌÈŒÇ÷.
+I
+java:S1659&",Declare "tvSurnameError" on a separate line.(¥°‘Á8¸³—–÷.
+O
+java:S1659$"-Declare "clickDatePicker" on a separate line.(©óÆ¿ÿÿÿÿÿ8öŠÛ‘÷.
+G
+java:S1659&"*Declare "tvPhoneError" on a separate line.(¥°‘Á8šã—–÷.
+M
+java:S5411ô"*Use the primitive boolean expression here.(Â¤óùÿÿÿÿ8‡ï„ì÷.
+~
+java:S14881"\Immediately return this expression instead of assigning it to the temporary variable "view".(°»Ûéüÿÿÿÿ8ôÉÕê÷.
+F
+java:S1659&")Declare "tvNameError" on a separate line.(¥°‘Á8‡Ü––÷.
+p
+java:S3776™"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ã›°°8‡ï„ì÷.
+s
+java:S5843´"USimplify this regular expression to reduce its complexity from 104 to the 20 allowed.(¼ÌÒø8‡ï„ì÷.
+_
+java:S1126í"AReplace this if-then-else statement by a single return statement.(ĞÓ¢8‡ï„ì÷.
+I
+java:S1659%"'Declare "dateBirth" on a separate line.(Ü¨¬¹ÿÿÿÿÿ8‹ÛÚ÷.
+A
+java:S1659*"$Declare "stNote" on a separate line.(»Åº¾8ÌÈŒÇ÷.
+G
+java:S1659%"%Declare "surName" on a separate line.(Ü¨¬¹ÿÿÿÿÿ8‹ÛÚ÷.
+K
+java:S1659%")Declare "phoneNumber" on a separate line.(Ü¨¬¹ÿÿÿÿÿ8‹ÛÚ÷.
+A
+java:S1659*"$Declare "stName" on a separate line.(»Åº¾8ÌÈŒÇ÷.
+E
+java:S1659%"#Declare "eMail" on a separate line.(Ü¨¬¹ÿÿÿÿÿ8‹ÛÚ÷.
+¤
+java:S1186«"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ8‡ï„ì÷.
+V
+java:S1874ù"3Remove this use of "getDrawable"; it is deprecated.(ƒ“şôıÿÿÿÿ8‡ï„ì÷.
+V
+java:S1874’"3Remove this use of "getDrawable"; it is deprecated.(¦°Ñ¶ÿÿÿÿÿ8‡ï„ì÷.
+H
+java:S1659'"&Declare "txtlName" on a separate line.(œéé±ıÿÿÿÿ8–¡‰–÷.
+v
+java:S2293l"YReplace the type specification in this constructor call with the diamond operator ("<>").(’‘åÄ8‡ï„ì÷.
+G
+java:S1659&"*Declare "tvBirthError" on a separate line.(¥°‘Á8¿Œ¼÷.
+L
+java:S1121›".Extract the assignment out of this expression.(—èÒ‚8‡ï„ì÷.
+|
+java:S1450!"_Remove the "adapterPhoneCode" field and declare it as a local variable in the relevant methods.(í¦ù8óƒû›÷.
+V
+java:S1874õ"3Remove this use of "getDrawable"; it is deprecated.(í‚Ÿ¯şÿÿÿÿ8‡ï„ì÷.
+H
+java:S1659*"+Declare "stPhoneNumber" on a separate line.(»Åº¾8ÌÈŒÇ÷.
+H
+java:S1659*"+Declare "stDateOfBirth" on a separate line.(»Åº¾8ÌÈŒÇ÷.
+D
+java:S1659*"'Declare "stSurname" on a separate line.(»Åº¾8ÌÈŒÇ÷.
+I
+java:S1659'"'Declare "txtlEmail" on a separate line.(œéé±ıÿÿÿÿ8ªìÅ”÷.
+D
+java:S1659%""Declare "note" on a separate line.(Ü¨¬¹ÿÿÿÿÿ8‹ÛÚ÷.
+¤
+java:S1186æ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8‡ï„ì÷.
+V
+java:S1874"3Remove this use of "getDrawable"; it is deprecated.(“ÂÚ¹ıÿÿÿÿ8‡ï„ì÷.
+K
+java:S1659'")Declare "txtlSurname" on a separate line.(œéé±ıÿÿÿÿ8–¡‰–÷.
+M
+java:S5411"*Use the primitive boolean expression here.(÷ö‡åøÿÿÿÿ8‡ï„ì÷.

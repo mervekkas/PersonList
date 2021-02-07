@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPersonAddBg"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.PersonListFragment"
+    android:paddingBottom="20sp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_persons_mask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_oval_mask"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_person_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58sp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/kisiler"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_person_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rectangle_copy_3"
+            android:layout_marginEnd="32sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_person_title"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_path_1"
+            app:layout_constraintStart_toStartOf="@+id/img_person_add"
+            app:layout_constraintEnd_toEndOf="@+id/img_person_add"
+            app:layout_constraintTop_toTopOf="@+id/img_person_add"
+            app:layout_constraintBottom_toBottomOf="@+id/img_person_add"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_search_person_text"
+            android:layout_marginTop="38sp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_person_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:searchIcon="@drawable/ic_search"
+                app:searchHintIcon="@drawable/ic_search"
+                app:goIcon="@drawable/ic_search"
+                app:commitIcon="@drawable/ic_search"
+                app:closeIcon="@drawable/ic_iconfinder_exit_delete_remove_close_x_2931151"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </androidx.appcompat.widget.SearchView>
+
+            <!--  <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/kisi_ara"
+                  android:layout_marginStart="73sp"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"/>
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/ic_search"
+                  android:layout_marginStart="15sp"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintBottom_toBottomOf="parent"/>
+
+              <EditText
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="46sp"
+                  android:fontFamily="@font/rubik_regular"
+                  android:text="@string/kisi_ara"
+                  android:textColor="@color/textColor636363"
+                  android:textSize="@dimen/text_height_regular"
+                  android:background="@drawable/bg_edittext"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_person_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPersonAddBg"
+        app:layout_constraintTop_toBottomOf="@+id/img_persons_mask"/>
+
+</LinearLayout>

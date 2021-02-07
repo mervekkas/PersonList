@@ -1,0 +1,19 @@
+
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+o
+?app/src/main/java/com/example/personlist/view/MainActivity.java,5/8/5847ff1e0381ed3e296d440067ffaa4f2658c770
+k
+;app/src/main/java/com/example/personlist/model/Persons.java,5/4/545c1b44a4c862f7e7f393d2e2daaec2d87ece88
+t
+Dapp/src/main/java/com/example/personlist/adapter/PersonsAdapter.java,9/1/91462027f6ed90b0e78c5ffd3840407a7a9e2321
+u
+Eapp/src/main/java/com/example/personlist/view/PersonListFragment.java,a/7/a7773aaa049c7c3055b62733a9d0848db54973ba
+o
+?app/src/main/java/com/example/personlist/database/DataBase.java,9/f/9f1851ea147a650197603bf6e39e47aae52bf455
+q
+Aapp/src/main/java/com/example/personlist/database/PersonsDao.java,0/0/0047334d68a57cb808e10fd8aeddd6b31b2c14e9
+z
+Japp/src/main/java/com/example/personlist/view/PersonAddUpdateFragment.java,c/c/cc281239a08e24a7f2d146ecb661a6ed3dbfef1d

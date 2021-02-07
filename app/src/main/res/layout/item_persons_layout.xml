@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="6sp">
+    
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="325sp"
+        android:layout_height="wrap_content"
+        android:minHeight="150sp"
+        app:cardCornerRadius="8sp"
+        android:layout_marginTop="20dp"
+        app:cardUseCompatPadding="true"
+        app:elevation="6dp"
+        android:outlineAmbientShadowColor="@color/shadowColor"
+        android:outlineSpotShadowColor="@color/shadowColor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="15sp">
+
+            <TextView
+                android:id="@+id/tv_item_person_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Merve Kaş"
+                android:textSize="@dimen/text_height_medium"
+                android:textColor="@color/textColor313131"
+                android:fontFamily="@font/rubik_medium"
+                android:layout_marginStart="21sp"
+                android:layout_marginTop="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/item_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+                android:gravity="center"
+                android:layout_marginTop="12sp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_item_person_name"
+                app:layout_constraintStart_toStartOf="@+id/tv_item_person_name"/>
+
+            <TextView
+                android:id="@+id/tv_item_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dogum_tarihi"
+                android:fontFamily="@font/rubik_regular"
+                android:textColor="@color/textColor636363"
+                android:textSize="@dimen/text_height_regular"
+                android:layout_marginTop="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/item_line"
+                app:layout_constraintStart_toStartOf="@+id/tv_item_person_name"/>
+
+            <TextView
+                android:id="@+id/tv_item_eposta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/e_posta"
+                android:fontFamily="@font/rubik_regular"
+                android:textColor="@color/textColor636363"
+                android:textSize="@dimen/text_height_regular"
+                android:layout_marginTop="15sp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_item_birthday"
+                app:layout_constraintStart_toStartOf="@+id/tv_item_person_name"/>
+
+            <TextView
+                android:id="@+id/tv_item_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telefon"
+                android:fontFamily="@font/rubik_regular"
+                android:textColor="@color/textColor636363"
+                android:textSize="@dimen/text_height_regular"
+                android:layout_marginTop="15sp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_item_eposta"
+                app:layout_constraintStart_toStartOf="@+id/tv_item_person_name" />
+
+            <TextView
+                android:id="@+id/tv_item_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/not"
+                android:fontFamily="@font/rubik_regular"
+                android:textColor="@color/textColor636363"
+                android:textSize="@dimen/text_height_regular"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_item_phone"
+                app:layout_constraintStart_toStartOf="@+id/tv_item_person_name" />
+
+            <TextView
+                android:id="@+id/tv_item_person_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01/01/2001"
+                android:fontFamily="@font/rubik_medium"
+                android:textColor="@color/textColor313131"
+                android:textSize="@dimen/text_height_medium"
+                android:layout_marginStart="60sp"
+                app:layout_constraintStart_toEndOf="@+id/tv_item_birthday"
+                app:layout_constraintTop_toTopOf="@+id/tv_item_birthday"/>
+
+            <TextView
+                android:id="@+id/tv_item_person_eposta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="150sp"
+                android:text="etstur@etstur.com"
+                android:fontFamily="@font/rubik_medium"
+                android:textColor="@color/textColor313131"
+                android:maxLines="2"
+                android:textSize="@dimen/text_height_medium"
+                app:layout_constraintStart_toStartOf="@+id/tv_item_person_birthday"
+                app:layout_constraintTop_toTopOf="@+id/tv_item_eposta"/>
+
+            <TextView
+                android:id="@+id/tv_item_person_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+90 555 55 55"
+                android:fontFamily="@font/rubik_medium"
+                android:textColor="@color/textColor313131"
+                android:textSize="@dimen/text_height_medium"
+                app:layout_constraintStart_toStartOf="@+id/tv_item_person_birthday"
+                app:layout_constraintTop_toTopOf="@+id/tv_item_phone"/>
+
+            <TextView
+                android:id="@+id/tv_item_person_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ksahdhas akjsfhkja kjdslhjk lsajfnjlan alsnflaasfnkas açkfn asçfkmasmlf çamfça sçfmç"
+                android:background="@drawable/bg_item_person_note"
+                android:padding="8sp"
+                android:textSize="@dimen/text_height_regular"
+                android:layout_marginTop="7sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_item_note"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="40sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_delete_button"
+        android:text="@string/sil"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/rubik_medium"
+        android:layout_marginTop="6sp"
+        app:layout_constraintTop_toTopOf="@+id/cardView"
+        app:layout_constraintStart_toEndOf="@+id/cardView"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

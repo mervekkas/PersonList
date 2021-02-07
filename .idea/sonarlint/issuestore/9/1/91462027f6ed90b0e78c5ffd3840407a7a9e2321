@@ -1,0 +1,22 @@
+
+C
+java:S1659W"&Declare "itemMail" on a separate line.(Öÿä8»ƒïä÷.
+Q
+java:S1128"4Remove this unused import 'android.widget.EditText'.(†Å›Ú8¼òê÷.
+H
+java:S1068"&Remove this unused "db" private field.(ëúóÀÿÿÿÿÿ8İ¨×ë÷.
+H
+java:S1659W"+Declare "itemNoteTitle" on a separate line.(Öÿä8ş»¹è÷.
+D
+java:S1659W"'Declare "itemPhone" on a separate line.(Öÿä8»ƒïä÷.
+w
+java:S1104"UMake mListener a static final constant or non-public and provide accessors if needed.(Ì©óùıÿÿÿÿ8ˆ»÷ê÷.
+H
+java:S1659W"+Declare "itemDateBirth" on a separate line.(Öÿä8»ƒïä÷.
+C
+java:S1659W"&Declare "itemNote" on a separate line.(Öÿä8»ƒïä÷.
+G
+java:S1068"+Remove this unused "context" private field.(êİç8¼òê÷.
+]	java:S125C"<This block of commented-out lines of code should be removed.(Äò…šúÿÿÿÿ8İ¨×ë÷.
+b
+java:S1124Y"EReorder the modifiers to comply with the Java Language Specification.(Œ«©”8©úÑé÷.
